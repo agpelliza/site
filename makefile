@@ -1,7 +1,12 @@
+.PHONY: test
+
 setup:
-	which dep     || gem install dep
+	echo APP_KEY=$$(basename $$(pwd)) >> env.sh
+	echo APP_SECRET=$$(make secret | grep -v 'ruby') >> env.sh
+	echo REDIS_URL=redis://127.0.0.1:6379/
+	which gs  || gem install gs
+	which dep || gem install dep
 	which shotgun || gem install shotgun
-	dep install
 
 console:
 	env $$(cat env.sh) irb -r ./app

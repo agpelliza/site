@@ -6,7 +6,6 @@ setup:
 	echo REDIS_URL=redis://127.0.0.1:6379/ >> env.sh
 	which gs  || gem install gs
 	which dep || gem install dep
-	which shotgun || gem install shotgun
 
 console:
 	env $$(cat env.sh) irb -r ./app

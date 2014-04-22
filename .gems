@@ -7,3 +7,4 @@ scrivener -v 0.2.0
 rack-protection -v 1.5.3
 rack-test -v 0.6.2
 shield -v 2.1.0
+shotgun -v 0.9

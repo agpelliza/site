@@ -14,5 +14,5 @@ $ cd <app_name>
 $ make setup
 ```
 
-`make setup` creates a `env.sh` file with the configurations required by
+`make setup` creates a `.env` file with the configurations required by
 the application.

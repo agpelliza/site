@@ -9,6 +9,8 @@ APP_KEY = ENV.fetch("APP_KEY")
 APP_SECRET = ENV.fetch("APP_SECRET")
 REDIS_URL = ENV.fetch("REDIS_URL")
 
+Ohm.redis = Redic.new(REDIS_URL)
+
 Cuba.plugin(Cuba::Mote)
 Cuba.plugin(Shield::Helpers)
 
@@ -17,8 +19,6 @@ Cuba.use(Rack::Static, urls: %w[/js /css /img], root: "./public")
 
 Cuba.use(Rack::Protection)
 Cuba.use(Rack::Protection::RemoteReferrer)
-
-Ohm.redis = Redic.new(REDIS_URL)
 
 Dir["./models/**/*.rb"].each  { |f| require(f) }
 Dir["./filters/**/*.rb"].each { |f| require(f) }

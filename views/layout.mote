@@ -8,8 +8,8 @@
     <title>{{ title }}</title>
   </head>
   <body>
-    <!--{{ this.partial("header") }}-->
+    {{ this.partial("header") }}
     {{ params[:content] }}
-    <!--{{ this.partial("footer") }}-->
+    {{ this.partial("footer") }}
   </body>
 </html>

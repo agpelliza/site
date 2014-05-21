@@ -1,5 +1,16 @@
 <section class="content">
- <p>
-   hello
- </p>
+ <section id="about">
+    <p>
+      Hi! My name is Agustin Pelliza. I'm an argentinian programmer
+      living in Buenos Aires, Argentina.
+    </p>
+
+    <p>
+      I like to call my self a poligloth programmer.
+    </p>
+
+    <p>
+      I like tools that only solve one problem and do it well.
+    </p>
+  </section>
 <section>

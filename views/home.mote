@@ -1,5 +1,7 @@
     <section class="content">
       <section id="about">
+        <h2><a href="#about"># About</a></h2>
+        
         <p>
           Hi! My name is Agustin Pelliza. I'm an argentinian programmer
           living in Buenos Aires, Argentina.

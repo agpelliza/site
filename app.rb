@@ -1,18 +1,11 @@
 require "cuba"
 require "cuba/mote"
-require "ohm"
 require "rack/protection"
-require "shield"
-require "scrivener"
 
 APP_KEY = ENV.fetch("APP_KEY")
 APP_SECRET = ENV.fetch("APP_SECRET")
-DATABASE_URL = ENV.fetch("DATABASE_URL")
-
-Ohm.redis = Redic.new(DATABASE_URL)
 
 Cuba.plugin(Cuba::Mote)
-Cuba.plugin(Shield::Helpers)
 
 Cuba.use(Rack::Session::Cookie, key: APP_KEY, secret: APP_SECRET)
 Cuba.use(Rack::Static, urls: %w[/js /css /img], root: "./public")
@@ -27,6 +20,6 @@ Dir["./routes/**/*.rb"].each  { |f| require(f) }
 
 Cuba.define do
   on root do
-    render("home")
+    render("home", title: "agpelliza")
   end
 end

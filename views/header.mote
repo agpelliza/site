@@ -1,0 +1,17 @@
+    <div class="nav"></div>
+
+    <header class="header">
+      <h1>agpelliza</h1>
+      <h2>agpelliza's blog</h2>
+      
+      <div class="social-bar">
+        <div class="social-bar-buttons">
+          <a href="/"><img src="/img/home.png"/></a>
+          <a href="http://github.com/agpelliza"><img src="/img/octocat.png"/></a>
+          <a href="http://twitter.com/agpelliza"><img src="/img/twitter.png"/></a>
+          <a href="/talks"><img src="/img/talks.png"/></a>
+          <a href="http://feeds.feedburner.com/agpelliza"><img src="/img/rss.png"/></a>
+        </div>
+        <hr/>
+      </div>
+    </header>

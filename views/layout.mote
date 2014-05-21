@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>App</title>
-    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/css/railscasts_theme.css" />
+    <title>{{ title }}</title>
   </head>
   <body>
+    {{ this.partial("header") }}
     {{ params[:content] }}
+    {{ this.partial("footer") }}
   </body>
 </html>

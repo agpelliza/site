@@ -7,9 +7,9 @@ require "scrivener"
 
 APP_KEY = ENV.fetch("APP_KEY")
 APP_SECRET = ENV.fetch("APP_SECRET")
-REDIS_URL = ENV.fetch("REDIS_URL")
+DATABASE_URL = ENV.fetch("DATABASE_URL")
 
-Ohm.redis = Redic.new(REDIS_URL)
+Ohm.redis = Redic.new(DATABASE_URL)
 
 Cuba.plugin(Cuba::Mote)
 Cuba.plugin(Shield::Helpers)

@@ -12,7 +12,7 @@ secret:
 	ruby -r securerandom -e 'puts SecureRandom.hex(32)'
 
 server:
-	env $$(cat .env) shotgun -o 0.0.0.0
+	env $$(cat .env) shotgun -s puma -o 0.0.0.0
 
 test:
 	env $$(cat .env) cutest test/*/*_test.rb

@@ -1,7 +1,7 @@
     <section class="content">
       <section id="about">
         <h2><a href="#about"># About</a></h2>
-        
+
         <p>
           Hi! My name is Agustin Pelliza. I'm an argentinian programmer
           living in Buenos Aires, Argentina.
@@ -13,6 +13,15 @@
 
         <p>
           I like tools that only solve one problem and do it well.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2><a href="#skills"># Skills</a></h2>
+
+        <p>
+          I know several languages and tools, but I like to
+          think that my best skill is the avility to keep learning new ones.
         </p>
       </section>
     <section>

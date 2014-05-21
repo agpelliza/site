@@ -34,8 +34,38 @@
 
         <p>
           <a href="https://github.com/agpelliza/assigner">assigner</a>
-          <span class="subheader">— xxLOC</span><br/>
+          <span class="subheader">- xxLOC</span><br/>
           Some gem.
         </p>
       </section>
-    <section>
+
+      <section id="opensource">
+        <h2><a href="#opensource"># Open Source</a></h2>
+        <p>I'm an Open Source's guy. Here is some projects I've contributed:</p>
+
+        <p>
+          <a href="https://github.com/hexacta/python-para-cientificos/graphs/contributors">hexacta/python-para-cientificos</a></br/>
+          Python para cientificos.
+        </p>
+
+        <p>
+          <a href="https://github.com/rologarcia/ror_gl/graphs/contributors">rologarcia/ror_gl</a></br/>
+          Ruby on Rail Geek Lunch at Hexacta.
+        </p>
+      </section>
+
+      <section id="writing">
+        <h2><a href="#writing"># Writing</a></h2>
+        <p>
+          I recently found that I not only like to write
+          code, but also I enjoy writing posts about experiences
+          and guides to share what I've learned.
+        </p>
+
+        <p>
+          <a href="http://blog.agpelliza.com.ar">Blog</a>
+          <span class="subheader">- English</span><br/>
+          A book about developing Ruby web applications through a minimalistic approach.
+        </p>
+      </section>
+    </section>

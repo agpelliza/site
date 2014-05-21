@@ -20,6 +20,7 @@ Dir["./routes/**/*.rb"].each  { |f| require(f) }
 
 Cuba.define do
   on root do
-    render("home", title: "agpelliza")
+    res.write "hello"
+    #render("home", title: "agpelliza")
   end
 end

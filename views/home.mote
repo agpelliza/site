@@ -24,4 +24,18 @@
           think that my best skill is the avility to keep learning new ones.
         </p>
       </section>
+
+      <section id="projects">
+        <h2><a href="#projects"># Projects</a></h2>
+
+        <p>
+          Here are some of my projects:
+        </p>
+
+        <p>
+          <a href="https://github.com/agpelliza/assigner">assigner</a>
+          <span class="subheader">— xxLOC</span><br/>
+          Some gem.
+        </p>
+      </section>
     <section>

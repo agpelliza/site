@@ -8,7 +8,8 @@
         </p>
 
         <p>
-          I like to call my self a poligloth programmer.
+          I think of my self as poligloth programmer with focus on design,
+          rather than a language fundamentalist.
         </p>
 
         <p>
@@ -20,7 +21,7 @@
         <h2><a href="#skills"># Skills</a></h2>
 
         <p>
-          I know several languages and tools, but I like to
+          I have some experience with several languages and tools, but I like to
           think that my best skill is the avility to keep learning new ones.
         </p>
       </section>
@@ -41,7 +42,10 @@
 
       <section id="opensource">
         <h2><a href="#opensource"># Open Source</a></h2>
-        <p>I'm an Open Source's guy. Here is some projects I've contributed:</p>
+        
+        <p>
+          I'm an Open Source's guy. Here is some projects I've contributed:
+        </p>
 
         <p>
           <a href="https://github.com/hexacta/python-para-cientificos/graphs/contributors">hexacta/python-para-cientificos</a></br/>
@@ -54,8 +58,24 @@
         </p>
       </section>
 
+      <section id="social">
+        <h2><a href="#social"># Social</a></h2>
+        
+        <p>
+          Contributing to Open Source is a great thing to colaborate and share knowledge.
+          But some times it's necessary to go one step lower to reach people.
+          I think contributing with Social Projects is a nice way to do so.
+        </p>
+
+        <p>
+          <a href="">GEMA</a>
+          GEMA is a Social Project focus on teenagers interested on software development.
+        </p>
+      </section>
+
       <section id="writing">
         <h2><a href="#writing"># Writing</a></h2>
+        
         <p>
           I recently found that I not only like to write
           code, but also I enjoy writing posts about experiences

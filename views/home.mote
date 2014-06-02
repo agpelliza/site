@@ -14,11 +14,8 @@
 
         <p>
           I like tools that only solve one problem and do it well.
+          Kipping things simple also means to use simple tools.
         </p>
-      </section>
-
-      <section id="skills">
-        <h2><a href="#skills"># Skills</a></h2>
 
         <p>
           I have some experience with several languages and tools, but I like to
@@ -26,25 +23,21 @@
         </p>
       </section>
 
+      <!--<section id="skills">
+        <h2><a href="#skills"># Skills</a></h2>  
+      </section>-->
+
       <section id="projects">
         <h2><a href="#projects"># Projects</a></h2>
 
         <p>
-          Here are some of my projects:
+          Here are some of the projects I've worked on:
         </p>
 
         <p>
           <a href="https://github.com/agpelliza/assigner">assigner</a>
           <span class="subheader">- xxLOC</span><br/>
-          Some gem.
-        </p>
-      </section>
-
-      <section id="opensource">
-        <h2><a href="#opensource"># Open Source</a></h2>
-        
-        <p>
-          I'm an Open Source's guy. Here is some projects I've contributed:
+          Ruby assigner.
         </p>
 
         <p>
@@ -56,6 +49,19 @@
           <a href="https://github.com/rologarcia/ror_gl/graphs/contributors">rologarcia/ror_gl</a></br/>
           Ruby on Rail Geek Lunch at Hexacta.
         </p>
+
+        <p>
+          <a href="">Proyecto GEMA</a></br>
+          Proyecto GEMA is a Social Project focus on teenagers interested on software development.
+        </p>
+      </section>
+
+      <!--<section id="opensource">
+        <h2><a href="#opensource"># Open Source</a></h2>
+        
+        <p>
+          I'm an Open Source's guy. Here is some projects I've contributed:
+        </p>
       </section>
 
       <section id="social">
@@ -66,12 +72,7 @@
           But some times it's necessary to go one step lower to reach people.
           I think contributing with Social Projects is a nice way to do so.
         </p>
-
-        <p>
-          <a href="">Proyecto GEMA</a></br>
-          Proyecto GEMA is a Social Project focus on teenagers interested on software development.
-        </p>
-      </section>
+      </section>-->
 
       <section id="writing">
         <h2><a href="#writing"># Writing</a></h2>

@@ -31,7 +31,7 @@
         <h2><a href="#projects"># Projects</a></h2>
 
         <p>
-          Here are some of the projects I've worked on:
+          Here are some of the projects I've contributed:
         </p>
 
         <p>
@@ -42,12 +42,12 @@
 
         <p>
           <a href="https://github.com/hexacta/python-para-cientificos/graphs/contributors">hexacta/python-para-cientificos</a></br/>
-          Python para cientificos.
+          Python for scientists.
         </p>
 
         <p>
           <a href="https://github.com/rologarcia/ror_gl/graphs/contributors">rologarcia/ror_gl</a></br/>
-          Ruby on Rail Geek Lunch at Hexacta.
+          Little sample for a Ruby on Rail - Geek Lunch @Hexacta.
         </p>
 
         <p>
@@ -57,7 +57,7 @@
 
         <p>
           <a href="https://github.com/hexacta/fba">Fundacion Banco de Alimentos</a></br>
-          The FBA project is a cntribution to the FoodBank Foundations.
+          The FBA project is a contribution to the FoodBank Foundations.
         </p>
       </section>
 

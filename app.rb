@@ -22,4 +22,8 @@ Cuba.define do
   on root do
     render("home", title: "agpelliza")
   end
+
+  on "about" do
+    render("about", title: "about")
+  end
 end

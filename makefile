@@ -1,9 +1,8 @@
 .PHONY: test
 
 setup:
-	echo APP_KEY=$$(basename $$(pwd)) >> .env
-	echo APP_SECRET=$$(make secret | grep -v 'ruby') >> .env
-	echo DATABASE_URL=redis://127.0.0.1:6379/ >> .env
+	echo APP_KEY=$$(basename $$(pwd)) > .env
+	echo APP_SECRET=$$(make secret --no-print-directory | grep -v 'ruby') >> .env
 
 console:
 	env $$(cat .env) irb -r ./app
@@ -16,3 +15,11 @@ server:
 
 test:
 	env $$(cat .env) cutest test/*/*_test.rb
+
+pull:
+	git pull origin master
+	git pull heroku master
+
+push:
+	git push origin master
+	git push heroku master

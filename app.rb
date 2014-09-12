@@ -19,11 +19,8 @@ Dir["./helpers/**/*.rb"].each { |f| require(f) }
 Dir["./routes/**/*.rb"].each  { |f| require(f) }
 
 Cuba.define do
+  
   on root do
     render("home", title: "agpelliza")
-  end
-
-  on "about" do
-    render("about", title: "about")
   end
 end

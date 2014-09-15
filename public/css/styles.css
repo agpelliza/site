@@ -184,6 +184,24 @@ header a:hover {
   color: #CCC;
 }
 
+ul.projects {
+  font-size: 20px;
+  line-height: 160%;
+  list-style-type: none;
+  margin-bottom: 2em;
+  padding-left: 10px;
+}
+
+  ul.projects li {
+    line-height: 1.75em;
+  }
+
+  ul.projects span {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+  }
+
 @media only screen and (min-width: 670px) {
   .content {
     width: 670px;
